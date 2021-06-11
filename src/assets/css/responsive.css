@@ -4,6 +4,15 @@
         font-size: 1.5rem;
         line-height: 38px;
     }
+    .slider-wrapper .slick-prev, .slider-wrapper .slick-next {
+        font-size: 22px;
+    }
+    .slider-wrapper .slick-next::after {
+        font-size: 1rem;
+    }
+    .slider-wrapper .slick-next {
+        right: 16px;
+    }
 
     /* menu wrapper start */
     .menu-icon-wrapper {
@@ -34,18 +43,10 @@
     /* wholesale shopping start  */
     .ws-section {
         background-color: #EAEDED;
-        padding: 24px 0 32px;
+        padding: 24px 0 28px;
         margin-top: -7px;
     }
-    .ws-slider-wrapper .slick-prev, .ws-slider-wrapper .slick-next {
-        font-size: 22px;
-    }
-    .ws-slider-wrapper .slick-next::after {
-        font-size: 1rem;
-    }
-    .ws-slider-wrapper .slick-next {
-        right: 16px;
-    }
+    
     .product-inner .adt-cart-box button {
         background-color: #4371B7;
         font-size: 1rem;
@@ -55,6 +56,14 @@
     }
     .product-inner .price-box h4 span.symbol {
         font-size: 1.125rem;
+    }
+
+    /* big selection store start */
+    .bss-section {
+        padding: 0 0 32px;
+    }
+    .bss-slider-wrapper .slick-prev, .bss-slider-wrapper .slick-next {
+        top: -29%;
     }
 }
 
@@ -112,6 +121,11 @@
     .product-inner .status-box .st-link {
         font-size: .75rem;
         padding: 0 .25rem;
+    }
+
+    /* big selection store start */
+    .bss-slider-wrapper .slick-prev, .bss-slider-wrapper .slick-next {
+        top: -30%;
     }
 }
 

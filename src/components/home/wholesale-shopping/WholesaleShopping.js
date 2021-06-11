@@ -12,7 +12,7 @@ export default function WholesaleShopping() {
             title: "vegetables",
             vaLink: "/ExternalPage",
             imgSrc: "assets/img/product/tomato.png",
-            imgAlt: "product",
+            imgAlt: "tomato",
             price: "10",
             priceDesc: "Tomato Round (Local)/Kg",
             storeLink: "/ExternalPage",
@@ -25,7 +25,7 @@ export default function WholesaleShopping() {
             title: "fruits",
             vaLink: "/ExternalPage",
             imgSrc: "assets/img/product/orange.png",
-            imgAlt: "product",
+            imgAlt: "orange",
             price: "99",
             priceDesc: "Malta S.Africa (Sweet)/Kg",
             storeLink: "/ExternalPage",
@@ -38,7 +38,7 @@ export default function WholesaleShopping() {
             title: "meat",
             vaLink: "/ExternalPage",
             imgSrc: "assets/img/product/meet.png",
-            imgAlt: "product",
+            imgAlt: "meet",
             price: "499",
             priceDesc: "Beef Premium Cube (kg)",
             storeLink: "/ExternalPage",
@@ -118,7 +118,7 @@ export default function WholesaleShopping() {
     };
     return (
         <>
-            <section className="ws-section">
+            <section className="ws-section bg-light-gray">
                 <Container fluid className="px-0">
                     <div className="sc-title-wrapper">
                         <h1 className="title-box">
@@ -126,7 +126,7 @@ export default function WholesaleShopping() {
                             <span className="text">start your wholesale shopping</span>
                         </h1>
                     </div>
-                    <div className="ws-slider-wrapper">
+                    <div className="ws-slider-wrapper slider-wrapper">
                         <Slider {...productSlider}>
                             {productData.map((data) =>
                                 <div className="slide-item" key={data.id}>

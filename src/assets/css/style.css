@@ -20,6 +20,9 @@ ul {
 a, a:hover {
   text-decoration: none;
 }
+a:focus-visible {
+  outline: none;
+}
 h1, h2, h3, h4, h5, h6 {
   margin: 0;
 }
@@ -32,6 +35,9 @@ button:focus {
 
 
 /* common class design start  */
+.bg-light-gray {
+  background-color: #EAEDED;
+}
 .sc-title-wrapper {
   padding: 0 1rem 1.5rem;
 }
@@ -56,7 +62,32 @@ button:focus {
 }
 .slick-slider .slick-prev, .slick-slider .slick-next  {
   width: auto;
-    height: auto;
+  height: auto;
+}
+
+.slider-wrapper .slick-prev {
+  display: none !important;
+}
+.slider-wrapper .slick-next {
+  right: 45px;
+}
+.slider-wrapper .slick-prev, .slider-wrapper .slick-next {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #000000;
+  transform: translate(0, 0);
+}
+.slider-wrapper .slick-next::before {
+  content: '';
+}
+.slider-wrapper .slick-next::after {
+  content: '\f061';
+  font-family: "Font Awesome 5 Free";
+  font-weight: 700;
+  font-size: 1.125rem;
+  color: #000000;
+  line-height: 1;
+  margin-left: 8px;
 }
 
 
@@ -168,34 +199,11 @@ button:focus {
 
 /* wholesale shopping start  */
 .ws-section {
-  background-color: #EAEDED;
   padding: 62px 0;
   margin-top: -7px;
 }
-.ws-slider-wrapper .slick-prev {
-  display: none !important;
-}
-.ws-slider-wrapper .slick-next {
-  right: 45px;
-}
 .ws-slider-wrapper .slick-prev, .ws-slider-wrapper .slick-next {
   top: -12%;
-  font-size: 1.5rem;
-  font-weight: 700;
-  color: #000000;
-  transform: translate(0, 0);
-}
-.ws-slider-wrapper .slick-next::before {
-  content: '';
-}
-.ws-slider-wrapper .slick-next::after {
-  content: '\f061';
-  font-family: "Font Awesome 5 Free";
-  font-weight: 700;
-  font-size: 1.125;
-  color: #000000;
-  line-height: 1;
-  margin-left: 8px;
 }
 .prodcut-wrapper {
   background-color: #fff;
@@ -277,6 +285,24 @@ overflow: hidden;
 }
 .product-inner .status-box .st-link:not(:last-child) {
   border-right: 1px solid #d5d5d5;
+}
+
+
+
+/* big selection store start */
+.bss-section {
+  
+  padding: 0 0 62px;
+}
+.bss-wrapper {
+  margin: 0 .5rem;
+  border: 6px solid #D0D1D3;
+}
+.bss-slider-wrapper .slick-prev, .bss-slider-wrapper .slick-next {
+  top: -20%;
+}
+.bss-wrapper .plink {
+  display: block;
 }
 
 
