@@ -47,27 +47,29 @@ export default function FilterMenu() {
     return (
         <>
             <div className="filter-menu-wrapper">
-                <div className="filter-left-box">
-                    <ul className="filter-menu-items">
-                        <li>
-                            <Link></Link>
-                        </li>
-                        {filterMenuData.map((data) =>
-                            <li key={data.id}>
-                                <Link className="items" to={data.pLink}>{data.title}</Link>
+                <div className="filter-menu-inner">
+                    <div className="filter-left-box">
+                        <ul className="filter-menu-items">
+                            <li>
+                                <Link></Link>
                             </li>
-                        )}
-                    </ul>
-                </div>
-                <div className="filter-right-box">
-                    <ul className="filter-menu-items">
-                        <li>
-                            <Link className="items" to='/ExternalPage'>treasure hunt</Link>
-                        </li>
-                        <li>
-                            <Link className="items" to='/ExternalPage'>Shop super deals</Link>
-                        </li>
-                    </ul>
+                            {filterMenuData.map((data) =>
+                                <li key={data.id}>
+                                    <Link className="items" to={data.pLink}>{data.title}</Link>
+                                </li>
+                            )}
+                        </ul>
+                    </div>
+                    <div className="filter-right-box">
+                        <ul className="filter-menu-items">
+                            <li>
+                                <Link className="items" to='/ExternalPage'>treasure hunt</Link>
+                            </li>
+                            <li>
+                                <Link className="items" to='/ExternalPage'>Shop super deals</Link>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
             </div>
         </>

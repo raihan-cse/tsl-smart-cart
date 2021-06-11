@@ -59,7 +59,7 @@ export default function MainMenu() {
                 <ul className="main-menu-items">
                     {mainMenuData.map((data) =>
                         <li key={data.id}>
-                            <Link to={data.pLink}>{data.title}</Link>
+                            <Link className="items" to={data.pLink}>{data.title}</Link>
                         </li>
                     )}
                 </ul>
