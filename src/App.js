@@ -3,6 +3,7 @@ import Landing from './components/home/Landing'
 import NotFound from './components/pages/NotFound'
 import ExternalPage from './components/pages/ExternalPage'
 import Header from './components/header/Header';
+import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 
 function App() {
@@ -14,7 +15,7 @@ function App() {
             <Header />
             <Landing />
           </Route>
-          <Route path='/ExternalPage' component={ExternalPage}>
+          <Route path='/ExternalPage'>
             <Header />
             <ExternalPage />
           </Route>

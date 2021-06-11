@@ -1,10 +1,12 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
+import Hero from './hero/Hero'
+import WholesaleShopping from './WholesaleShopping/WholesaleShopping'
 
 export default function Landing() {
     return (
         <div>
-            <Link to='/ExternalPage'>check link</Link>
+            <Hero />
+            <WholesaleShopping />
         </div>
     )
 }

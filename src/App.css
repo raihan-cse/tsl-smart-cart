@@ -20,6 +20,35 @@ ul {
 a, a:hover {
   text-decoration: none;
 }
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+}
+button {
+  border: 0;
+}
+button:focus {
+  outline: none;
+}
+
+
+/* common class design start  */
+.sc-title-wrapper {
+  padding: 0 1rem 1.5rem;
+}
+.sc-title-wrapper .title-box {
+  display: inline-block;
+  font-size: 0;
+  line-height: 0px;
+}
+.sc-title-wrapper .title-box span {
+  font-size: 2rem;
+  font-weight: 500;
+  text-transform: capitalize;
+  line-height: 42px;
+}
+.sc-title-wrapper .title-box .icon i {
+  transform: rotate(-58deg);
+}
 
 
 /* filter menu style start */
@@ -102,6 +131,121 @@ a, a:hover {
   display: block;
 }
 
+
+/* hero section design start */
+.hero-section .slick-slider .slick-prev {
+  left: 16px;
+}
+.hero-section .slick-slider .slick-prev::before, .hero-section .slick-slider .slick-next::before  {
+  font-family: "Font Awesome 5 Free";
+  font-weight: 700;
+  font-size: 32px;
+}
+.hero-section .slick-slider .slick-prev::before {
+  content: '\f104';
+}
+.hero-section .slick-slider .slick-next::before {
+  content: '\f105';
+}
+.hero-section .slick-slider .slick-next {
+  right: 16px;
+}
+
+.hero-section .slick-slider .slick-prev, .hero-section .slick-slider .slick-next {
+  z-index: 1;
+}
+
+
+
+/* wholesale shopping design start  */
+.ws-section {
+  background-color: #EAEDED;
+  padding: 62px 0;
+}
+/* .ws-slider-wrapper .slick-slide {
+  margin: 0 .5rem;
+} */
+.prodcut-wrapper {
+  background-color: #fff;
+  padding: 6px;
+  margin: 0 .5rem;
+}
+.product-inner {
+  border-radius: 20px;
+  box-shadow: -1px 0px 4px 0px rgba(0,0,0,0.35);
+-webkit-box-shadow: -1px 0px 4px 0px rgba(0,0,0,0.35);
+-moz-box-shadow: -1px 0px 4px 0px rgba(0,0,0,0.35);
+overflow: hidden;
+}
+
+.product-inner .group-btton {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 12px 8px 0;
+}
+.product-inner .group-btton .title-box {
+  background-color: #000000;
+}
+.product-inner .group-btton .view-all-box {
+  background-color: #C8151B;
+}
+.product-inner .group-btton .title-box, .product-inner .group-btton .view-all-box {
+  min-width: 92px;
+  text-align: center;
+}
+.product-inner .group-btton .title-box .text, .product-inner .group-btton .view-all-box .text {
+  font-size: 12px;
+  font-weight: 500;
+  color: #ffffff;
+  padding: .375rem .75rem;
+  text-transform: uppercase;
+}
+.product-inner .price-box {
+  text-align: center;
+}
+.product-inner .price-box h4 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #FD050A;
+}
+.product-inner .price-box h4 span.symbol {
+  font-size: 1.5rem;
+  font-weight: 800;
+  color: #FD050A;
+}
+.product-inner .price-box h4 span {
+  font-size: 1rem;
+  font-weight: 400;
+  color: #000000;
+}
+.product-inner .adt-cart-box {
+  text-align: center;
+  padding: 1rem 0;
+}
+.product-inner .adt-cart-box button {
+  background-color: #4371B7;
+  border-radius: 40px;
+  font-size: 1.125rem;
+  font-weight: 400;
+  padding: .25rem 3rem;
+  color: #ffffff;
+}
+.product-inner .status-box {
+  background-color: #E6F3FC;
+  padding: .25rem .5rem;
+  text-align: center;
+}
+.product-inner .status-box .st-link {
+  font-size: 1rem;
+  font-weight: 400;
+  color: #000000;
+  padding: 0 .5rem;
+  display: inline-block;
+}
+.product-inner .status-box .st-link:not(:last-child) {
+  border-right: 1px solid #d5d5d5;
+}
 
 
 
