@@ -288,6 +288,33 @@ overflow: hidden;
 }
 
 
+/* browse by category section start */
+.bbc-section-inner {
+  background: rgb(234,237,237);
+  background: linear-gradient(0deg, rgba(234,237,237,1) 20%, rgba(252,167,40,1) 100%);
+  padding: 2rem;
+}
+.bbc-section-inner .row .col-12.col-sm-6.col-md-3:first-child .bbc-content-wrapper .bbc-img-wrapper {
+  padding-bottom: 2.25rem;
+}
+.bbc-content-wrapper {
+  background-color: #ffffff;
+  padding: 1rem;
+}
+.bbc-content-wrapper h3 {
+  font-size: 1.25rem;
+  font-weight: 600;
+  max-width: 248px;
+}
+.bbc-img-wrapper {
+  padding: .75rem 0 1.125rem;
+}
+.bbc-img-wrapper .inner-box h6 {
+  font-size: .875rem;
+  font-weight: 400;
+  padding: .5rem 0;
+}
+
 
 /* big selection store start */
 .bss-section {

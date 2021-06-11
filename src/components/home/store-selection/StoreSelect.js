@@ -5,7 +5,7 @@ import Slider from 'react-slick'
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
-export default function WholesaleShopping() {
+export default function StoreSelect() {
     const bssData = [
         {
             id: 1,

@@ -65,6 +65,15 @@
     .bss-slider-wrapper .slick-prev, .bss-slider-wrapper .slick-next {
         top: -29%;
     }
+
+
+    /* browse by category section start */
+    .bbc-section-inner {
+        padding: 1rem;
+    }
+    .bbc-section-inner .row .col-12.col-sm-6.col-md-3:not(:last-child) {
+        padding-bottom: 1rem;
+    }
 }
 
 /* Small devices (landscape phones, 576px and up) */
@@ -127,6 +136,12 @@
     .bss-slider-wrapper .slick-prev, .bss-slider-wrapper .slick-next {
         top: -30%;
     }
+
+
+    /* browse by category section start */
+    .bbc-img-wrapper .inner-box h6 {
+        font-size: 0.625rem;
+      }
 }
 
 @media (min-width: 1600px) and (max-width: 1919.98px) {}
