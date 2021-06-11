@@ -44,7 +44,7 @@ button:focus {
   font-size: 2.5rem;
   font-weight: 700;
   text-transform: capitalize;
-  line-height: 42px;
+  line-height: 48px;
 }
 .sc-title-wrapper .title-box .icon i {
   transform: rotate(-58deg);
@@ -54,22 +54,26 @@ button:focus {
   font-family: "Font Awesome 5 Free";
   font-weight: 700;
 }
+.slick-slider .slick-prev, .slick-slider .slick-next  {
+  width: auto;
+    height: auto;
+}
 
 
-/* filter menu style start */
+/* menu wrapper design start */
 .menu-wrapper {
   display: flex;
   flex-wrap: wrap;
 }
 
-
+/* menu icon */
 .menu-icon-wrapper {
   background-color: #232F3E;
   flex: 0 0 2%;
   max-width: 2%;
 }
 .menu-icon-wrapper .icon-inner {
-  padding: .75rem 0 .75rem 1rem; 
+  padding: .875rem 0 .75rem 1rem; 
 }
 .menu-icon-wrapper .icon-inner .line {
   width: 18px;
@@ -77,10 +81,10 @@ button:focus {
   background-color: #ffffff;
 }
 .menu-icon-wrapper .icon-inner .line:not(:last-child) {
-  margin-bottom: 0.375rem;
+  margin-bottom: 0.25rem;
 }
 
-
+/* filter menu */
 .filter-menu-wrapper {
   flex: 0 0 98%;
   max-width: 98%;
@@ -114,8 +118,7 @@ button:focus {
 }
 
 
-
-/* main menu design start */
+/* main menu */
 .main-menu-wrapper {
   flex: 0 0 100%;
   max-width: 100%;
@@ -135,16 +138,17 @@ button:focus {
   text-transform: capitalize;
   display: block;
 }
+/* menu wrapper end */
 
 
-/* hero section design start */
+
+/* hero section start */
 .hero-section .slick-slider .slick-prev {
   left: 4px;
 }
 .hero-section .slick-slider .slick-prev::before, .hero-section .slick-slider .slick-next::before  {
-  /* font-family: "Font Awesome 5 Free";
-  font-weight: 700; */
   font-size: 32px;
+  opacity: 1;
 }
 .hero-section .slick-slider .slick-prev::before {
   content: '\f104';
@@ -162,10 +166,11 @@ button:focus {
 
 
 
-/* wholesale shopping design start  */
+/* wholesale shopping start  */
 .ws-section {
   background-color: #EAEDED;
   padding: 62px 0;
+  margin-top: -7px;
 }
 .ws-slider-wrapper .slick-prev {
   display: none !important;
@@ -175,14 +180,10 @@ button:focus {
 }
 .ws-slider-wrapper .slick-prev, .ws-slider-wrapper .slick-next {
   top: -12%;
-  font-size: 24px;
+  font-size: 1.5rem;
   font-weight: 700;
   color: #000000;
   transform: translate(0, 0);
-  width: auto;
-  height: auto;
-}
-.ws-slider-wrapper .slick-prev::before {
 }
 .ws-slider-wrapper .slick-next::before {
   content: '';
@@ -191,7 +192,7 @@ button:focus {
   content: '\f061';
   font-family: "Font Awesome 5 Free";
   font-weight: 700;
-  font-size: 18px;
+  font-size: 1.125;
   color: #000000;
   line-height: 1;
   margin-left: 8px;
@@ -282,16 +283,7 @@ overflow: hidden;
 
 
 
-
-
-
-
-
-
-
-
-
-
+/* external and not found page design start  */
 .external-page, .not-found-page {
   height: 100vh;
   display: flex;

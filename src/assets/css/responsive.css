@@ -1,0 +1,120 @@
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+    .sc-title-wrapper .title-box span {
+        font-size: 1.5rem;
+        line-height: 38px;
+    }
+
+    /* menu wrapper start */
+    .menu-icon-wrapper {
+        background-color: #232F3E;
+        flex: 0 0 10%;
+        max-width: 10%;
+    }
+    .menu-icon-wrapper .icon-inner {
+        padding: .355rem 0 .75rem 1rem;
+    }
+    .filter-menu-wrapper {
+        flex: 0 0 90%;
+        max-width: 90%;
+    }
+    .filter-menu-items li .items, .main-menu-items li .items {
+        font-size: 12px;
+        line-height: 18px;
+        padding: .25rem .5rem;
+    }
+
+
+
+    /* hero section start */
+    .hero-section .slick-slider .slick-prev::before, .hero-section .slick-slider .slick-next::before  {
+        font-size: 16px;
+    }
+
+    /* wholesale shopping start  */
+    .ws-section {
+        background-color: #EAEDED;
+        padding: 24px 0 32px;
+        margin-top: -7px;
+    }
+    .ws-slider-wrapper .slick-prev, .ws-slider-wrapper .slick-next {
+        font-size: 22px;
+    }
+    .ws-slider-wrapper .slick-next::after {
+        font-size: 1rem;
+    }
+    .ws-slider-wrapper .slick-next {
+        right: 16px;
+    }
+    .product-inner .adt-cart-box button {
+        background-color: #4371B7;
+        font-size: 1rem;
+    }
+    .product-inner .price-box h4 {
+        font-size: 1.25rem;
+    }
+    .product-inner .price-box h4 span.symbol {
+        font-size: 1.125rem;
+    }
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) and (max-width: 1599.98px) {
+    .sc-title-wrapper .title-box span {
+        font-size: 2rem;
+        line-height: 42px;
+    }
+
+    /* menu wrapper start */
+    .menu-icon-wrapper {
+        background-color: #232F3E;
+        flex: 0 0 3%;
+        max-width: 3%;
+    }
+    .filter-menu-wrapper {
+        flex: 0 0 97%;
+        max-width: 97%;
+    }
+
+    /* wholesale shopping start */
+    .ws-slider-wrapper .slick-prev, .ws-slider-wrapper .slick-next {
+        top: -15%;
+    }
+    .product-inner .group-btton .title-box, .product-inner .group-btton .view-all-box {
+        min-width: 80px;
+    }
+    .product-inner .group-btton .title-box .text, .product-inner .group-btton .view-all-box .text {
+        font-size: 10px;
+        padding: .375rem .5rem;
+    }
+    .product-inner .price-box h4 {
+        font-size: 1.125rem;
+    }
+    .product-inner .price-box h4 span.symbol {
+        font-size: 1rem;
+    }
+    .product-inner .price-box h4 span {
+        font-size: .75rem;
+    }
+    .product-inner .adt-cart-box button {
+        font-size: .875rem;
+        padding: .25rem 1.5rem;
+    }
+    .product-inner .status-box .st-link {
+        font-size: .75rem;
+        padding: 0 .25rem;
+    }
+}
+
+@media (min-width: 1600px) and (max-width: 1919.98px) {}
+
+@media (min-width: 1920px) {}

@@ -4,7 +4,8 @@ import NotFound from './components/pages/NotFound'
 import ExternalPage from './components/pages/ExternalPage'
 import Header from './components/header/Header';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import './App.css';
+import './assets/css/style.css';
+import './assets/css/responsive.css';
 
 function App() {
   return (
