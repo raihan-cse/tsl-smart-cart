@@ -8,19 +8,19 @@ export default function Hero() {
     const slideData = [
         {
             id: 1,
-            imgSrc: "https://via.placeholder.com/1920x350",
+            imgSrc: "assets/img/hero-banner/hero-slide-1.jpg",
             imgAlt: "Slide One",
             pLink: "/ExternalPage"
         },
         {
             id: 2,
-            imgSrc: "https://via.placeholder.com/1920x350",
+            imgSrc: "assets/img/hero-banner/hero-slide-2.jpg",
             imgAlt: "Slide Two",
             pLink: "/ExternalPage"
         },
         {
             id: 3,
-            imgSrc: "https://via.placeholder.com/1920x350",
+            imgSrc: "assets/img/hero-banner/hero-slide-1.jpg",
             imgAlt: "Slide Three",
             pLink: "/ExternalPage"
         }
@@ -40,7 +40,7 @@ export default function Hero() {
                     {slideData.map((data) => 
                     <div className="slide-item" key={data.id}>
                         <Link to={data.pLink}>
-                            <img src={data.imgSrc} alt={data.imgAlt} /> 
+                            <img className="img-fluid" src={data.imgSrc} alt={data.imgAlt} /> 
                         </Link>
                     </div>
                     )}

@@ -11,7 +11,7 @@ export default function WholesaleShopping() {
             id: 1,
             title: "vegetables",
             vaLink: "/ExternalPage",
-            imgSrc: "https://via.placeholder.com/480x320",
+            imgSrc: "assets/img/product/tomato.png",
             imgAlt: "product",
             price: "10",
             priceDesc: "Tomato Round (Local)/Kg",
@@ -24,7 +24,7 @@ export default function WholesaleShopping() {
             id: 2,
             title: "fruits",
             vaLink: "/ExternalPage",
-            imgSrc: "https://via.placeholder.com/480x320",
+            imgSrc: "assets/img/product/orange.png",
             imgAlt: "product",
             price: "99",
             priceDesc: "Malta S.Africa (Sweet)/Kg",
@@ -37,7 +37,7 @@ export default function WholesaleShopping() {
             id: 3,
             title: "meat",
             vaLink: "/ExternalPage",
-            imgSrc: "https://via.placeholder.com/480x320",
+            imgSrc: "assets/img/product/meet.png",
             imgAlt: "product",
             price: "499",
             priceDesc: "Beef Premium Cube (kg)",
@@ -50,8 +50,8 @@ export default function WholesaleShopping() {
             id: 4,
             title: "fish",
             vaLink: "/ExternalPage",
-            imgSrc: "https://via.placeholder.com/480x320",
-            imgAlt: "product",
+            imgSrc: "assets/img/product/fish.png",
+            imgAlt: "fish",
             price: "499",
             priceDesc: "Rupchanda (8-10 PCs/Kg)",
             storeLink: "/ExternalPage",
@@ -63,8 +63,8 @@ export default function WholesaleShopping() {
             id: 5,
             title: "egg/dairy",
             vaLink: "/ExternalPage",
-            imgSrc: "https://via.placeholder.com/480x320",
-            imgAlt: "product",
+            imgSrc: "assets/img/product/egg.png",
+            imgAlt: "egg",
             price: "5",
             priceDesc: "Egg Loose / Piece",
             storeLink: "/ExternalPage",
@@ -76,8 +76,8 @@ export default function WholesaleShopping() {
             id: 6,
             title: "frozen",
             vaLink: "/ExternalPage",
-            imgSrc: "https://via.placeholder.com/480x320",
-            imgAlt: "product",
+            imgSrc: "assets/img/product/frozen.png",
+            imgAlt: "frozen",
             price: "115",
             priceDesc: "Chicken Nuggets/(300g)",
             storeLink: "/ExternalPage",
@@ -89,8 +89,8 @@ export default function WholesaleShopping() {
             id: 7,
             title: "fruits",
             vaLink: "/ExternalPage",
-            imgSrc: "https://via.placeholder.com/480x320",
-            imgAlt: "product",
+            imgSrc: "assets/img/product/orange.png",
+            imgAlt: "orange",
             price: "99",
             priceDesc: "Malta S.Africa (Sweet)/Kg",
             storeLink: "/ExternalPage",
@@ -103,10 +103,18 @@ export default function WholesaleShopping() {
     const productSlider = {
         dots: false,
         infinite: true,
-        arrows: false,
         speed: 500,
         slidesToShow: 6,
-        slidesToScroll: 1
+        slidesToScroll: 1,
+        responsive: [
+            {
+                breakpoint: 480,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1
+                }
+            }
+        ]
     };
     return (
         <>

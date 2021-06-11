@@ -41,13 +41,18 @@ button:focus {
   line-height: 0px;
 }
 .sc-title-wrapper .title-box span {
-  font-size: 2rem;
-  font-weight: 500;
+  font-size: 2.5rem;
+  font-weight: 700;
   text-transform: capitalize;
   line-height: 42px;
 }
 .sc-title-wrapper .title-box .icon i {
   transform: rotate(-58deg);
+}
+
+.slick-slider .slick-prev::before, .slick-slider .slick-next::before  {
+  font-family: "Font Awesome 5 Free";
+  font-weight: 700;
 }
 
 
@@ -134,11 +139,11 @@ button:focus {
 
 /* hero section design start */
 .hero-section .slick-slider .slick-prev {
-  left: 16px;
+  left: 4px;
 }
 .hero-section .slick-slider .slick-prev::before, .hero-section .slick-slider .slick-next::before  {
-  font-family: "Font Awesome 5 Free";
-  font-weight: 700;
+  /* font-family: "Font Awesome 5 Free";
+  font-weight: 700; */
   font-size: 32px;
 }
 .hero-section .slick-slider .slick-prev::before {
@@ -148,7 +153,7 @@ button:focus {
   content: '\f105';
 }
 .hero-section .slick-slider .slick-next {
-  right: 16px;
+  right: 4px;
 }
 
 .hero-section .slick-slider .slick-prev, .hero-section .slick-slider .slick-next {
@@ -162,16 +167,42 @@ button:focus {
   background-color: #EAEDED;
   padding: 62px 0;
 }
-/* .ws-slider-wrapper .slick-slide {
-  margin: 0 .5rem;
-} */
+.ws-slider-wrapper .slick-prev {
+  display: none !important;
+}
+.ws-slider-wrapper .slick-next {
+  right: 45px;
+}
+.ws-slider-wrapper .slick-prev, .ws-slider-wrapper .slick-next {
+  top: -12%;
+  font-size: 24px;
+  font-weight: 700;
+  color: #000000;
+  transform: translate(0, 0);
+  width: auto;
+  height: auto;
+}
+.ws-slider-wrapper .slick-prev::before {
+}
+.ws-slider-wrapper .slick-next::before {
+  content: '';
+}
+.ws-slider-wrapper .slick-next::after {
+  content: '\f061';
+  font-family: "Font Awesome 5 Free";
+  font-weight: 700;
+  font-size: 18px;
+  color: #000000;
+  line-height: 1;
+  margin-left: 8px;
+}
 .prodcut-wrapper {
   background-color: #fff;
   padding: 6px;
   margin: 0 .5rem;
 }
 .product-inner {
-  border-radius: 20px;
+  border-radius: 16px;
   box-shadow: -1px 0px 4px 0px rgba(0,0,0,0.35);
 -webkit-box-shadow: -1px 0px 4px 0px rgba(0,0,0,0.35);
 -moz-box-shadow: -1px 0px 4px 0px rgba(0,0,0,0.35);
@@ -262,14 +293,15 @@ overflow: hidden;
 
 
 .external-page, .not-found-page {
-  width: 100vw;
   height: 100vh;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
 }
-.external-page, .not-found-page h1 {}
+.external-page, .not-found-page .content {
+  text-align: center;
+}
 
 /* .App {
   text-align: center;
