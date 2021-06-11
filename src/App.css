@@ -1,4 +1,98 @@
-.App {
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+a, a:hover {
+  text-decoration: none;
+}
+
+
+/* filter menu style start */
+
+.menu-icon-wrapper .icon-inner .line {
+  width: 24px;
+  height: 2px;
+  color: #ffffff;
+}
+.menu-icon-wrapper .icon-inner .line.line-two {
+  width: 16px;
+  margin-left: auto;
+}
+.menu-icon-wrapper .icon-inner .line:not(:last-child) {
+  margin-bottom: .5rem;
+}
+
+
+.filter-menu-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #232F3E;
+  padding: 0 1rem;
+}
+
+.filter-menu-items li {
+  display: inline-block;
+}
+.filter-menu-items li .items {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  color: #ffffff;
+  padding: .5rem 1rem;
+  text-transform: capitalize;
+  display: block;
+}
+.filter-right-box .filter-menu-items li:first-child .items {
+  background-color: #FB7D92;
+  text-transform: uppercase;
+}
+.filter-right-box .filter-menu-items li:last-child .items {
+  text-transform: initial;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.external-page, .not-found-page {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.external-page, .not-found-page h1 {}
+
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +129,4 @@
   to {
     transform: rotate(360deg);
   }
-}
+} */
