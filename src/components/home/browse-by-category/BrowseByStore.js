@@ -7,28 +7,28 @@ export default function BrowseByStore() {
         {
             id: 1,
             title: "Cell Phones",
-            imgSrc: "https://via.placeholder.com/480x360",
+            imgSrc: "assets/img/browse-by-category/mobile.jpg",
             imgAlt: "category product",
             pLink: "/ExternalPage"
         },
         {
             id: 2,
             title: "Computers",
-            imgSrc: "https://via.placeholder.com/480x360",
+            imgSrc: "assets/img/browse-by-category/computer.jpg",
             imgAlt: "category product",
             pLink: "/ExternalPage"
         },
         {
             id: 3,
             title: "Kitchen",
-            imgSrc: "https://via.placeholder.com/480x360",
+            imgSrc: "assets/img/browse-by-category/kitchen.jpg",
             imgAlt: "category product",
             pLink: "/ExternalPage"
         },
         {
             id: 4,
             title: "Personal cares",
-            imgSrc: "https://via.placeholder.com/480x360",
+            imgSrc: "assets/img/browse-by-category/personal-cares.jpg",
             imgAlt: "category product",
             pLink: "/ExternalPage"
         },

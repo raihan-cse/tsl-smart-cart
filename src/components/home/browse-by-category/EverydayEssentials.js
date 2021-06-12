@@ -7,28 +7,28 @@ export default function EverydayEssentials() {
         {
             id: 1,
             title: "Cleaning essentials ",
-            imgSrc: "https://via.placeholder.com/480x360",
+            imgSrc: "assets/img/browse-by-category/cleaning-essential.jpg",
             imgAlt: "Cleaning essentials",
             pLink: "/ExternalPage"
         },
         {
             id: 2,
             title: "Immunity & healthcare",
-            imgSrc: "https://via.placeholder.com/480x360",
+            imgSrc: "assets/img/browse-by-category/healthcare.jpg",
             imgAlt: "Immunity & healthcare",
             pLink: "/ExternalPage"
         },
         {
             id: 3,
             title: "Women's personal care",
-            imgSrc: "https://via.placeholder.com/480x360",
+            imgSrc: "assets/img/browse-by-category/women-personal-care.jpg",
             imgAlt: "Women's personal care",
             pLink: "/ExternalPage"
         },
         {
             id: 4,
             title: "Men's grooming",
-            imgSrc: "https://via.placeholder.com/480x360",
+            imgSrc: "assets/img/browse-by-category/mens-grooming.jpg",
             imgAlt: "Men's grooming",
             pLink: "/ExternalPage"
         },
