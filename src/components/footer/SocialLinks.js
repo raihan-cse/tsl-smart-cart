@@ -6,18 +6,18 @@ export default function SocialLinks() {
         <>
             <div className="footer-content-wrapper social">
                 <div className="title-wrapper">
-                    <h4>Social</h4>
+                    <h4 className="title">Social</h4>
                 </div>
                 <div className="link-wrapper">
                     <ul>
                         <li>
-                            <Link to='/ExternalPage' className="link" target="_blank">Facebook</Link>
+                            <Link to='https://www.facebook.com/timessquare.com.bd' className="link" target="_blank">Facebook</Link>
                         </li>
                         <li>
-                            <Link to='/ExternalPage' className="link" target="_blank">Twitter</Link>
+                            <Link to='/ExternalPage' className="link disabled-link" target="_blank">Twitter</Link>
                         </li>
                         <li>
-                            <Link to='/ExternalPage' className="link" target="_blank">YouTube</Link>
+                            <Link to='https://timessquare.com.bd/times-square-videos/' className="link" target="_blank">YouTube</Link>
                         </li>
                     </ul>
                 </div>

@@ -6,7 +6,7 @@ export default function AboutLinks() {
         <>
             <div className="footer-content-wrapper about">
                 <div className="title-wrapper">
-                    <h4>About</h4>
+                    <h4 className="title">About</h4>
                 </div>
                 <div className="link-wrapper">
                     <ul>

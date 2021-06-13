@@ -1,7 +1,7 @@
 /* Extra small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) {
     .sc-title-wrapper .title-box span {
-        font-size: 1.5rem;
+        font-size: 1.75rem;
         line-height: 38px;
     }
     .slider-wrapper .slick-prev, .slider-wrapper .slick-next {
@@ -37,7 +37,7 @@
 
     /* hero section start */
     .hero-section .slick-slider .slick-prev::before, .hero-section .slick-slider .slick-next::before  {
-        font-size: 16px;
+        font-size: 32px;
     }
 
     /* wholesale shopping start  */
@@ -49,13 +49,21 @@
     
     .product-inner .adt-cart-box button {
         background-color: #4371B7;
-        font-size: 1rem;
+        font-size: .875rem;
+        line-height: 26px;
+        padding: .25rem 2rem;
     }
     .product-inner .price-box h4 {
-        font-size: 1.25rem;
+        font-size: 1.125rem;
     }
     .product-inner .price-box h4 span.symbol {
-        font-size: 1.125rem;
+        font-size: 1rem;
+    }
+    .product-inner .price-box h4 span {
+        font-size: .875rem;
+    }
+    .product-inner .status-box .st-link {
+        font-size: .875rem;
     }
 
     /* big selection store start */
@@ -73,6 +81,49 @@
     }
     .bbc-section-inner .row .col-12.col-sm-6.col-md-3:not(:last-child) {
         padding-bottom: 1rem;
+    }
+    .bbc-content-wrapper h3 {
+        font-size: 1.125rem;
+    }
+    .bbc-img-wrapper .inner-box h6 {
+        font-size: .875rem;
+    }
+
+
+    /* realstate section start */
+    .rs-section {
+        padding: 16px 0 38px;
+    }
+    .rs-section .sc-title-wrapper::before {
+        width: 52%;
+        top: 60%;
+        transform: translate(0, -60%);
+    }
+    .rs-content-inner .text-wrapper .tag, .rs-content-inner .text-wrapper .price {
+        font-size: .875rem;
+    }
+
+    /* footer start */
+    .footer .footer-wrapper .footer-top {
+        padding: 32px 16px 8px;
+    }
+    .footer-content-wrapper {
+        padding-bottom: 1.5rem;
+    }
+    .footer-content-wrapper .title-wrapper .title {
+        padding-bottom: .5rem;
+    }
+    .footer-content-wrapper .link-wrapper .link {
+        font-size: .875rem;
+    }
+    .footer-content-wrapper .info-wrapper .text {
+        font-size: .875rem;
+    }
+    .footer-bottom .footer-content-wrapper {
+        padding-bottom: 1rem;
+    }
+    .footer .footer-wrapper .footer-bottom {
+        padding: 24px 15px 8px;
     }
 }
 

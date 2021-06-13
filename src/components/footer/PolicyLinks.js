@@ -6,7 +6,7 @@ export default function PolicyLinks() {
         <>
             <div className="footer-content-wrapper policy">
                 <div className="title-wrapper">
-                    <h4>Policy</h4>
+                    <h4 className="title">Policy</h4>
                 </div>
                 <div className="link-wrapper">
                     <ul>

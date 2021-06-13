@@ -6,7 +6,7 @@ export default function HelpLinks() {
         <>
             <div className="footer-content-wrapper help">
                 <div className="title-wrapper">
-                    <h4>Help</h4>
+                    <h4 className="title">Help</h4>
                 </div>
                 <div className="link-wrapper">
                     <ul>

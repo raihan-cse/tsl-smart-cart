@@ -10,21 +10,22 @@ export default function Hero() {
             id: 1,
             imgSrc: "assets/img/hero-banner/hero-slide-1.jpg",
             imgAlt: "Slide One",
-            pLink: "/ExternalPage"
+            pLink: "#link"
         },
         {
             id: 2,
-            imgSrc: "assets/img/hero-banner/hero-slide-2.jpg",
+            imgSrc: "assets/img/hero-banner/hero-slide-3.jpg",
             imgAlt: "Slide Two",
-            pLink: "/ExternalPage"
+            pLink: "#link"
         },
         {
             id: 3,
-            imgSrc: "assets/img/hero-banner/hero-slide-1.jpg",
+            imgSrc: "assets/img/hero-banner/hero-slide-2.jpg",
             imgAlt: "Slide Three",
-            pLink: "/ExternalPage"
+            pLink: "#link"
         }
     ]
+    
 
     const heroSlider = {
         dots: false,
