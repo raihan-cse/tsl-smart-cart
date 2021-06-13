@@ -97,6 +97,41 @@ button:focus {
 }
 
 
+/* header start */
+.main-header-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+
+}
+.header-logo-box {
+  flex: 0 0 10%;
+  max-width: 10%;
+}
+.header-search-box {
+  flex: 0 0 60%;
+  max-width: 60%;
+}
+.header-control-box {
+  flex: 0 0 30%;
+  max-width: 30%;
+}
+input[type="file"]::-webkit-file-upload-button {
+  visibility: hidden;
+  opacity: 0;
+
+}
+input[type="file"] {
+  font-size: 0;
+}
+input[type="file"]::before {
+  content: '\f030';
+  font-size: 19px;
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+}
+
 /* menu wrapper design start */
 .menu-wrapper {
   display: flex;
