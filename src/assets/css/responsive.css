@@ -47,7 +47,9 @@
         padding: 24px 0 28px;
         margin-top: -7px;
     }
-    
+    .ws-slider-wrapper .slick-prev, .ws-slider-wrapper .slick-next {
+        top: -12%;
+    }
     .product-inner .adt-cart-box button {
         background-color: #4371B7;
         font-size: .875rem;
@@ -78,9 +80,6 @@
     .bss-section .sc-title-wrapper .title-box {
         max-width: 280px;
     }
-    /* .bss-slider-wrapper .slick-prev, .bss-slider-wrapper .slick-next {
-        top: -18%;
-    } */
 
 
     /* browse by category section start */
@@ -177,7 +176,7 @@
 
     /* wholesale shopping start */
     .ws-slider-wrapper .slick-prev, .ws-slider-wrapper .slick-next {
-        top: -15%;
+        top: -16%;
     }
     .product-inner .group-btton .title-box, .product-inner .group-btton .view-all-box {
         min-width: 80px;

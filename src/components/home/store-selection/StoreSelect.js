@@ -79,7 +79,8 @@ export default function StoreSelect() {
                 <Container fluid className="px-0">
                     <div className="sc-title-wrapper">
                         <h1 className="title-box">
-                            <span className="icon"><i className="fas fa-space-shuttle"></i></span>
+                            {/* <span className="icon"><i className="fas fa-space-shuttle"></i></span> */}
+                            <span className="icon"><img src={process.env.PUBLIC_URL + "assets/img/bss-icon.png"} alt="bss" className="img-fluid" /></span>
                             <span className="text">Big Selection Store</span>
                         </h1>
                     </div>

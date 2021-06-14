@@ -57,6 +57,7 @@
 .mobile-main-menu-wrapper .filter-menu-items li .items, .mobile-main-menu-wrapper .main-menu-items li .items {
     font-size: .875rem;
     line-height: 18px;
+    padding: .5rem .875rem;
 }
 
 .mobile-main-menu-wrapper .main-menu-items {
