@@ -1,0 +1,67 @@
+
+@media (min-width: 992px) {
+    .mobile-header-wrapper {
+        display: none;
+    }
+}
+.mobile-header-wrapper {
+    background-color: #131921;
+    padding: .5rem 15px;
+    position: sticky;
+    top: 0;
+    z-index: 1010;
+}
+.logo-and-icon {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+.m-logo-wrapper {
+    flex: 0 0 50%;
+    max-width: 50%;
+}
+.m-icon-wrapper {
+    flex: 0 0 50%;
+    max-width: 50%;
+}
+.m-icon-wrapper .icon-inner {
+    cursor: pointer;
+}
+.m-icon-wrapper .icon-inner .line {
+    margin-left: auto;
+}
+
+.mobile-search-wrapper {
+    padding-top: .5rem;
+}
+.mobile-header-wrapper .mobile-collapse-menu {
+    padding-top: .5rem;
+}
+.mobile-header-wrapper .mobile-main-menu-wrapper {
+    display: flex;
+}
+.mobile-header-wrapper .filter-menu-wrapper {
+    flex: 0 0 50%;
+    max-width: 50%;
+    background-color: #232F3E;
+}
+.mobile-header-wrapper .main-menu-wrapper {
+    flex: 0 0 50%;
+    max-width: 50%;
+    background-color: #ffffff;
+}
+.mobile-main-menu-wrapper .filter-menu-items li, .mobile-main-menu-wrapper .main-menu-items li {
+    display: block;
+}
+.mobile-main-menu-wrapper .filter-menu-items li .items, .mobile-main-menu-wrapper .main-menu-items li .items {
+    font-size: .875rem;
+    line-height: 18px;
+}
+
+.mobile-main-menu-wrapper .main-menu-items {
+    text-align: right;
+}
+.mobile-main-menu-wrapper .main-menu-items li {
+    display: block;
+}
