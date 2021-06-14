@@ -80,7 +80,7 @@ export default function StoreSelect() {
                     <div className="sc-title-wrapper">
                         <h1 className="title-box">
                             <span className="icon"><i className="fas fa-space-shuttle"></i></span>
-                            <span className="text">start your wholesale shopping</span>
+                            <span className="text">Big Selection Store</span>
                         </h1>
                     </div>
                     <div className="bss-slider-wrapper slider-wrapper">

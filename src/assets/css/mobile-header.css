@@ -1,6 +1,6 @@
 
 @media (min-width: 992px) {
-    .mobile-header-wrapper {
+    .mobile-header-wrapper, .mobile-control-wrapper {
         display: none;
     }
 }
@@ -64,4 +64,16 @@
 }
 .mobile-main-menu-wrapper .main-menu-items li {
     display: block;
+}
+
+
+
+/* control start */
+.mobile-control-wrapper {
+    background-color: #131921;
+    padding: 8px 30px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
 }

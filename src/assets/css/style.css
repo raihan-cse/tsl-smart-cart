@@ -132,13 +132,13 @@ button:focus, input:focus, input:focus-visible, select:focus, select:focus-visib
   padding: 0 15px;
 }
 .header-search-box {
-  flex: 0 0 60%;
-  max-width: 60%;
+  flex: 0 0 65%;
+  max-width: 65%;
   padding: 0 15px;
 }
 .header-control-box {
-  flex: 0 0 25%;
-  max-width: 25%;
+  flex: 0 0 20%;
+  max-width: 20%;
   padding: 0 15px;
 }
 
@@ -181,7 +181,6 @@ button:focus, input:focus, input:focus-visible, select:focus, select:focus-visib
 
 .search-wrapper .input-group .form-control {
   border: 0;
-  /* border-left: 1px solid rgba(136, 127, 127, 0.7); */
 }
 
 
@@ -229,12 +228,7 @@ button:focus, input:focus, input:focus-visible, select:focus, select:focus-visib
 
 
 
-
-
-
-
-
-/* menu wrapper design start */
+/* menu wrapper start */
 .menu-wrapper {
   display: flex;
   flex-wrap: wrap;

@@ -7,6 +7,7 @@ import MailInfo from './MailInfo'
 import PolicyLinks from './PolicyLinks'
 import SocialLinks from './SocialLinks'
 import OfficeAddress from './OfficeAddress'
+import MobileCotrol from '../mobile-control/MobileCotrol'
 
 export default function Footer() {
     return (
@@ -99,6 +100,7 @@ export default function Footer() {
                     </div>
                 </Container>
             </footer>
+            <MobileCotrol />
         </>
     )
 }
